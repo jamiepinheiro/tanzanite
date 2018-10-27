@@ -1,0 +1,16 @@
+#navbar {
+	font-size: 1.3vw;
+}
+
+#main-background {
+	height: 100vh; 
+	background-image: url('img/mountain.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#explore {
+	background-color: #3F2E34;
+	border-radius: 0%;
+	border: none;
+}
