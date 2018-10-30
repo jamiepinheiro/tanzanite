@@ -14,3 +14,15 @@
 	border-radius: 0%;
 	border: none;
 }
+
+#barranco {
+	background-image: url('img/WhatsApp\ Image\ 2018-10-22\ at\ 11.20.36\ PM.jpeg');
+	height: 100vh;
+	background-size: cover;
+}
+
+#barafu {
+	background-image: url('img/WhatsApp\ Image\ 2018-10-22\ at\ 11.18.26\ PM.jpeg');
+	height: 100vh;
+	background-size: cover;
+}
