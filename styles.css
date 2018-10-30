@@ -1,9 +1,18 @@
+html, body {
+	margin: 0;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+.full-screen {
+	height: 100vh; 
+}
+
 #navbar {
 	font-size: 1.3vw;
 }
 
 #main-background {
-	height: 100vh; 
 	background-image: url('img/mountain.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
