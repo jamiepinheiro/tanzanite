@@ -82,7 +82,7 @@ html, body {
 
 #sponsor-us{
 	position: relative;
-	min-height: 600px;
+	min-height: 30rem;
 	background: url('img/chen-hu-526051-unsplash.jpg');
 	background-attachment: fixed;
 	background-size:cover;
