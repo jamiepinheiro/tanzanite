@@ -7,15 +7,13 @@ $("#subscribe-form").keydown(function(e) {
 	}
 });
 
-$('#subscribe-form').submit(function () {
-	return false;
-});
-
 // Send email to mailchimp
 var sumbmitToMailchimp = function() {
 	var email = $("#email-input").val();
 	alert(`${email} added to our mailing list`);
-	$("#email-input").val("");
+	setTimeout(function() { 
+		$("#email-input").val("");
+	}, 1000);
 	$("#subscribe-button").addClass("disabled");
 }
 
