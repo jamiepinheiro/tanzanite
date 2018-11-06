@@ -4,10 +4,20 @@ html, body {
     overflow-x: hidden;
 }
 
-@include media-breakpoint-up(sm){
+
+html{
+	font-size: 1rem;
+}
+
+@media (max-width: 500px){
 	html{
-		font-size: 1.2 rem;
+		font-size: 0.9rem;
 	}
+}
+
+
+@media (max-width: @screen-sm){
+
 }
 
 .full-screen {
@@ -31,7 +41,7 @@ html, body {
 }
 
 #navbar {
-	//font-size: 1.3vw;
+	font-size: 1.3vw;
 }
 
 #main-background {
@@ -65,12 +75,11 @@ html, body {
 	height: 100vh;
 	background-size: cover;
 }
-<<<<<<< HEAD
 
 .black {
 	background-color: black;
 }
-=======
+
 #mweka {
 	background-image: url('img/WhatsApp\ Image\ 2018-11-03\ at\ 12.56.19\ AM.jpeg');
 	height: 100vh;
@@ -135,4 +144,3 @@ html, body {
 	background: rgba(0, 0, 0,0.7);
   }
   
->>>>>>> 76c1e0087d5835d640f3bcab27ca59bbbb91288a
