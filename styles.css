@@ -65,6 +65,12 @@ html, body {
 	height: 100vh;
 	background-size: cover;
 }
+<<<<<<< HEAD
+
+.black {
+	background-color: black;
+}
+=======
 #mweka {
 	background-image: url('img/WhatsApp\ Image\ 2018-11-03\ at\ 12.56.19\ AM.jpeg');
 	height: 100vh;
@@ -129,3 +135,4 @@ html, body {
 	background: rgba(0, 0, 0,0.7);
   }
   
+>>>>>>> 76c1e0087d5835d640f3bcab27ca59bbbb91288a
