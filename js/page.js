@@ -1,4 +1,4 @@
-$("a").on("click", function(e){
+$("a.scroll").on("click", function(e){
 	e.preventDefault();
     var targetID = $(this).attr('href')
     var elementPosition = $(targetID).offset().top
