@@ -145,7 +145,7 @@ html{
   }
 
 #christmas-background {
-	background-image: url('img/A Childrens Christmas/header-min.jpg');
+	background-image: url('img/header-min.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -167,4 +167,25 @@ html{
 	height: 25rem;
 	width: 100%;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
   
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
