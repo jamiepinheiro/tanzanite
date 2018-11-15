@@ -145,10 +145,11 @@ html{
   }
 
 #christmas-background {
-	background-image: url('img/A Childrens Christmas/header.jpg');
+	background-image: url('img/A Childrens Christmas/header-min.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 }
 
 #christmas-col {
