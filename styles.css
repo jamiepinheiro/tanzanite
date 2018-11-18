@@ -36,9 +36,13 @@ html{
 	border: none;
 }
 
-#navbar {
-	font-size: 1.3vw;
+@media (min-width: 500px){
+	#navbar {
+		font-size: 1.3vw;
+	}
 }
+
+
 
 #main-background {
 	background-image: url('img/mountain.jpg');
@@ -145,7 +149,7 @@ html{
   }
 
 #christmas-background {
-	background-image: url('img/header-min.jpg');
+	background-image: url('img/header.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
