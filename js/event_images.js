@@ -14,11 +14,15 @@ class EventImages extends React.Component {
         
         return e('div', {}, 
             Array.from(Array(this.state.numberImages).keys()).map(function (num) {
-                return e('img', {
-                    src: `${directory}${num+1}.jpg`,
+                return e('a', {
+                    href: `${directory}${num+1}.jpg`,
+                    target: "_blank"
+                },
+                e('img', {
+                    src: `${directory}${num+1}_t.jpg`,
                     className: "col-lg-2 col-md-4 col-sm-5 p-1 h-100",
                     style: {"objectFit" : "cover"}
-                });
+                }));
             }),
             e('button', {onClick: () => {
                 this.setState({numberImages: Math.min(this.state.numberImages + 24, this.props.numberImages)});
