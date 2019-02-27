@@ -1,8 +1,7 @@
 env:
   global:
     #secure variable contains values for AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-    - secure: KHqj2GPPzaa6EBinImxsYnW6rwcuFc3F/9Djdlxfss2MEko+FXBLpXhgpECFODMx10YXl83YtZyNM3dzZPd71JYYdY+sPE0gwVQNdOKsVOI0oQppDedE9TtaoWfYAKK1yRgj4QrUZfAqAnRSWR3F+DXYULjVdWGLml3xypPYzyks+vAvZ0nuq9jrLxk9bUgJPB3GHxBTYhHw9Y8TKQUogjFghFlYIzEosqPiZ/fGmSY6clkt6wGkIQVRPZr188VFp+sAilvwgMQtdVYJrM6jH2neUM+8upi+eslOk45jPkNYoRPZ4c3Ux28agQhi0oBqgBTOEGiF1VlsBg6uV7XYaw==
-build:
+    - secure: DULqnQIuZBJCHHLapiwRm1n+FVTTdiTGmMcth00MM0zMSU0kzDk2D4UqUk9TqMRfFP73w2LD2H7Y+RlM8i0+xB5CEuhrP+oKbk5Cvc7cc9t+hmb/RMZcd/dA0jYXWW6ILkYJyKjRi3GfBHrlhbrrqJb9a5YgshNWSMq0W6onBjONQsjgGYD2hmsbLnH0CXaLl60WR1TalRwNX6R8oIZKXrBT7Wj+LslJc+SIfnW2NnB+GHCc8IVSqBN8Y4M5KB+wqMVW9U0H9mQoKm+alpTlCoMu1tzZFiVEzhGfy9zHIGJZxRK9xLWUXLmLye1WFW6R6FjDxvYK5ddl67/0kiYa/g==build:
 
   on_success:
     - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://tanzanite2019.com" --region "us-east-1"
