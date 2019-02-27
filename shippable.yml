@@ -1,8 +1,7 @@
 env:
   global:
     #secure variable contains values for AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-    - secure: b9EEICL5dXR9DLBZzN0259zruCb09zXqK5r9a+vxryFMoNbnAKZlet/h0XqGyQP+na2mrnIBU6WQPZTj9amve+oxfmjtzvxHvzS0QwRB9V/d+eukOCWFBxiyCX6jo2k0JBssxHxz/gfTmlFA/rEr9QdwnVOmhchqduw2QJvOXNkpQRZfprBKwQIA71cX5167fTU/9W76013b+lXyM0stK+0dk/Yhr7zAuKKGnaVsqdAZc6A0OjUyfUTZ4NhckEzWQvKpObRD0z4WyhAupAkegMEJej3y3he8Zud9RuW22lHOAL/5UtND0QSgJCIF05IXy9LwcYQxKONHn5aImNMX/Q==
-
+    - secure: KHqj2GPPzaa6EBinImxsYnW6rwcuFc3F/9Djdlxfss2MEko+FXBLpXhgpECFODMx10YXl83YtZyNM3dzZPd71JYYdY+sPE0gwVQNdOKsVOI0oQppDedE9TtaoWfYAKK1yRgj4QrUZfAqAnRSWR3F+DXYULjVdWGLml3xypPYzyks+vAvZ0nuq9jrLxk9bUgJPB3GHxBTYhHw9Y8TKQUogjFghFlYIzEosqPiZ/fGmSY6clkt6wGkIQVRPZr188VFp+sAilvwgMQtdVYJrM6jH2neUM+8upi+eslOk45jPkNYoRPZ4c3Ux28agQhi0oBqgBTOEGiF1VlsBg6uV7XYaw==
 build:
 
   on_success:
