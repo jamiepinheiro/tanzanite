@@ -5,4 +5,4 @@ env:
 build:
 
   on_success:
-    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://bucket_name" --region "us-east-1"
+    - aws s3 sync $SHIPPABLE_BUILD_DIR "s3://tanzanite2019.com" --region "us-east-1"
