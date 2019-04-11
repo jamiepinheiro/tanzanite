@@ -30,18 +30,11 @@ html{
 	border: none;
 }
 
-.subscribe {
-	background-color: white;
-	border-radius: 0%;
-	border: none;
-}
-
 @media (min-width: 500px){
 	#navbar {
 		font-size: 1.3vw;
 	}
 }
-
 
 
 #main-background {
@@ -59,6 +52,21 @@ html{
 	background-attachment: fixed;
 	background-position: center;
 }
+
+#morning-at-home-background {
+	background-image: url('img/rhino_bw.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#morning-col {
+	background-image: url('img/Morning at Home/morning at home.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
 
 #tall-2 {
 	background-image: url('img/tall-2.jpg');
