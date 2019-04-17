@@ -68,6 +68,19 @@ html{
 }
 
 
+#tanzania-trip-background {
+	background-image: url('img/masai.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.card-style {
+	width: 85vw
+}
+
+
 #tall-2 {
 	background-image: url('img/tall-2.jpg');
 	height: 100vh;
